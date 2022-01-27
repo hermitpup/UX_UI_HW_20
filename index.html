@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+ <!--top nav bar-->   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"></a>
+        <img src="images/logo.png" width="150" height="150">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Me<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+     
+<!--top hero image -->
+<div class="jumbotron">
+    <h1 class="display-4">Yoga Forward</h1>
+    <p class="lead">Group Design Project</p>
+    <div class="heroImage"><img src="images/yogaForward2.jpeg" width="700"></div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12"></div>
+  </div>
+</div>
+
+<!--case study navigation --> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">The Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">The Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">The Problem</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">The Process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">The End Result</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+
+<!--the product -->
+    <div class="jumbotron">
+        <h1 class="display-4">The Product</h1>
+        <div class="productImage"><img src="images/yogaForward1.jpeg" width="450"></div>
+        <p class="lead">Yoga Forward is a non-profit 501(c)(3) organization based in Salt Lake City, Utah.</p>
+        <p class="lead">This community service outreach program brings the healing benefits of yoga and mindfulness to those who need it most. </p>
+        <p class="lead">Yoga Forward’s mission (“We’re taking yoga where it isn’t!”) manifests in the form of working with prison populations, educators, and the LGBTQ+ community.</p>
+        <p class="lead">My group was tasked with evaluating and creating a redesign proposal for the Yoga Forward Website.</p>
+    </div>
+
+<!--the research -->
+<h1 class="display-4">The Research</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Heuristic Evaluation
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                We conducted a heuristic evaluation of the website and made note of things that needed improvement, including the Contact Us page (fields were missing labels, which made the form confusing to fill out), an overabundance of negative space above the fold on the homepage, and text that was overwhelming. The donation flow worked perfectly, and that was something we wanted to retain in the redesign.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Interviews
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                User interviews gave us some great insights on priorities among users. The interview subjects emphasized the importance of knowing whether a non-profit’s values were aligned with their own before deciding whether to donate/volunteer and also mentioned some common obstacles to getting involved with yoga (lack of time, financial considerations, and worrying about not fitting the mold of a typical yoga practitioner).            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Hypothesis
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                We came up with the following hypothesis: “We hypothesize that many yoga enthusiasts and teachers would be interested in volunteering for an organization that supports yoga education in underserved communities. We suspect that clear information about volunteering opportunities on the Yoga Forward website would allow prospective volunteers to get involved and help Yoga Forward achieve their goals.”            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              User Persona
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            The standout themes of our user interviews helped us flesh out our original proto-persona a little more to create our final user persona, Barbara, who wants to volunteer as a yoga instructor and needs to find organizations that align with her values because most yoga-focused groups are not as inclusive or community-minded as she would like.          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Competitor Analysis
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            During the competitor analysis stage, we looked at a number of service-oriented yoga groups from across the country to see how they communicated their messages and established their identities online. It was clear from this analysis that the Yoga Forward website had room to grow, especially in regards to the way they put an actual face to the organization. Very little on the existing Yoga Forward website gave us any sense of how it began, who was running things behind the scenes, and what motivated the group’s founders to offer this kind of yoga service.
+        </div>
+        </div>
+      </div>
+    </div>
+
+<!--the problem -->
+    <div class="jumbotron">
+        <h1 class="display-4">The Problem</h1>
+        <h2 class="lead">It's difficult for potential volunteers to find resources and needed information through the Yoga Forward website.</h2>
+        <hr class="my-4">
+        <p>We hypothesize that many yoga enthusiasts and teachers would be interested in volunteering for an organization that supports yoga education in underserved communities. We suspect that clear information about volunteering opportunities on the Yoga Forward website would allow prospective volunteers to get involved and help Yoga Forward achieve their goals.</p>
+
+        <p>While this is the main problem we want to address in the redesign, other issues also have our attention. We hope to address matters like a lack of information about the people behind Yoga Forward, greater inclusivity through design, best use of above-the-fold space, a confusing Contact Us page, and walls of text that can be broken up more effectively.</p>
+    </div>  
+
+<!--the process -->
+<h1 class="display-4">The Process</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                User Flow Diagram
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+            Our user flow introduces a new aspect to the Yoga Forward website, namely a path for potential volunteers to connect with the non-profit and express their interest in contributing their talents, time, and skills. It involves a new page on the website that’s all about Volunteering, along with a Volunteer Application portal, a form for the user’s information, a Submit button, and a confirmation message.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Style Guide
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            Post-testing, I took the lead on creating our style guide, which drew largely from Yoga Forward’s original aesthetic (sticking with the same font, for example). We shifted the color scheme away from the hot pink that Yoga Forward favors currently in order to communicate a calmer, more harmonious vibe and also to steer clear of gendered notions of who’s allowed to practice yoga.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Prototyping
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Our initial low-fidelity prototypes were sketched out on paper then translated into a digital format on Figma. Once the style guide was complete, we all worked together to implement the design to our high-fidelity prototype. This was the most collaborative stage of the project, and I think the three of us worked together very well.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Testing & Iterating
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Our user testing plan led into the actual user testing, which went really well. The users we tested with followed along with our intended user flow just as we hoped and remarked on the fact that the process was intuitive for them. One hiccup arose in response to our original mobile menu design; we iterated on this to correct the initial confusion.
+          </div>
+        </div>
+      </div>
+
+<!--the end result -->
+<h1 class="display-4">The End Result</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="desktop"><img src="images/desktop.png" width="450"></div>
+      <p>DESKTOP</p>
+    </div>
+    <div class="col-sm">
+      <div class="mobile"><img src="images/mobile.png" width="250"></div>
+      <p>MOBILE</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <button>go to in-depth Yoga Forward slide deck</button>
+    </div>
+    <div class="col-sm">
+      <button>see all case studies</button>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,15 @@
+body {
+    background-color: #f8f2e7;
+}
+
+div {
+    background-color: #f8f2e7;
+}
+
+.card {
+    background-color: #ffdda2;
+}
+
+.navbar-brand {
+    justify-content: flex-end;
+}
